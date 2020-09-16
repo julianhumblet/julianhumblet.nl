@@ -6,7 +6,7 @@ body {
 header {
     position: fixed;
     background-color: #337d92;
-    width: 1530px;
+    width: 100%;
     height: 80px;
     left: 0px;
     top: 0px;
@@ -39,7 +39,7 @@ header {
     position: absolute;
     left: 0px;
     top: 60px;
-    width: 1530px;
+    width: 100%;
     right: 0px;
 }
 

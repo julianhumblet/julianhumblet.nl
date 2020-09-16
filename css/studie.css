@@ -1,0 +1,51 @@
+body {
+    overflow-x: hidden; 
+ }
+ 
+ 
+ header {
+     position: fixed;
+     background-color: #337d92;
+     width: 1530px;
+     height: 80px;
+     left: 0px;
+     top: 0px;
+ }
+ 
+ 
+ #name-logo {
+     position: absolute;
+     width: 70px;
+     left: 10px;
+     top: 7px;
+ }
+ 
+ 
+ #navigation-menu {
+     position: relative;
+     top: 25px;
+     left: 100px;
+ }
+ 
+ 
+ .navigation-button {
+     color: black;
+     font-size: 25px;
+     text-decoration-line: none;
+ }
+ 
+ 
+ #background-video {
+     position: absolute;
+     left: 0px;
+     top: 60px;
+     width: 1530px;
+     right: 0px;
+ }
+ 
+ 
+ #name {
+     position: relative;
+     left: 1370px;
+     top: -20px;
+ }

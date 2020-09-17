@@ -1,8 +1,20 @@
+/*Full Body part*/
 body {
    overflow-x: hidden; 
 }
 
 
+/*Background Video*/
+#background-video {
+    position: absolute;
+    left: 0px;
+    top: 60px;
+    width: 100%;
+    right: 0px;
+}
+
+
+/*Full Header Part*/
 header {
     position: fixed;
     background-color: #337d92;
@@ -13,6 +25,7 @@ header {
 }
 
 
+/*Logo JH in the left upperside*/
 #name-logo {
     position: absolute;
     width: 70px;
@@ -21,6 +34,7 @@ header {
 }
 
 
+/*This is the navigation menu*/
 #navigation-menu {
     position: relative;
     top: 25px;
@@ -28,24 +42,9 @@ header {
 }
 
 
+/*Navigation buttons*/
 .navigation-button {
     color: black;
     font-size: 25px;
     text-decoration-line: none;
-}
-
-
-#background-video {
-    position: absolute;
-    left: 0px;
-    top: 60px;
-    width: 100%;
-    right: 0px;
-}
-
-
-#name {
-    position: relative;
-    left: 1370px;
-    top: -20px;
 }

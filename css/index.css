@@ -1,3 +1,9 @@
+/*HTML*/
+html {
+    scroll-behavior: smooth;
+}
+
+
 /*Body*/
 body {
     overflow-x: hidden;
@@ -51,6 +57,16 @@ body {
 }
 
 
+/*Arrow Top Screen*/
+#arrow-up {
+    position: fixed;
+    bottom: 65px;
+    right: 30px;
+    width: 45px;
+    z-index: 1;
+}
+
+
 /*Footer*/
 #footer {
     position: absolute;
@@ -59,7 +75,6 @@ body {
     height: 55px;
     margin-top: 1181px;
     background-color: rgb(85, 83, 83);
-    z-index: 1;
 }
 
 

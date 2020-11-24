@@ -17,12 +17,13 @@ body {
     left: 0%;
     width: 100%;
     height: 55px;
-    background-color: lightseagreen;
     opacity: 80%;
-    z-index: 2;
+    background-color: lightseagreen;
+    z-index: 4;
 }
 
 
+/*Navigation Bar & Buttons*/
 #navigation-bar {
     position: relative;
     top: 10px;
@@ -31,8 +32,8 @@ body {
 
 
 .navigation-button {
-    text-decoration: none;
     color: black;
+    text-decoration: none;
     font-size: 30px;
     padding: 15px;
 }
@@ -40,6 +41,16 @@ body {
 
 .navigation-button:hover {
     color: white;
+}
+
+
+/*Arrow Up*/
+#arrow-up {
+    position: fixed;
+    bottom: 65px;
+    right: 30px;
+    width: 45px;
+    z-index: 3;
 }
 
 
@@ -51,15 +62,14 @@ body {
     left: 0%;
     width: 100%;
     height: 1181px;
-    margin-top: 0px;
-    background-image: url(../images/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     text-align: center;
+    background-image: url(../images/home-background.jpg);
+    background-size: cover;
+    z-index: 1;
 }
 
 
-#naam {
+#home-headtext {
     position: relative;
     top: 20.5%;
     color: teal;
@@ -67,11 +77,11 @@ body {
 }
 
 
-#info {
+#home-text {
     position: relative;
     top: 22.5%;
-    font-size: 40px;
     color: rgb(0, 168, 168);
+    font-size: 40px;
 }
 
 
@@ -79,10 +89,11 @@ body {
 #overmij {
     position: absolute;
     left: 0%;
+    margin-top: 1173px;
     width: 100%;
     height: 700px;
-    margin-top: 1173px;
     background-color: teal;
+    z-index: 1;
 }
 
 
@@ -94,7 +105,7 @@ body {
 }
 
 
-#overmij-underline {
+#overmij-headtext-underline {
     position: relative;
     top: -2%;
     left: 10%;
@@ -107,10 +118,11 @@ body {
 #portfolio {
     position: absolute;
     left: 0%;
+    margin-top: 1873px;
     width: 100%;
     height: 700px;
-    margin-top: 1873px;
     background-color: rgb(0, 95, 95);
+    z-index: 1;
 }
 
 
@@ -122,7 +134,7 @@ body {
 }
 
 
-#portfolio-underline {
+#portfolio-headtext-underline {
     position: relative;
     top: -2%;
     left: 10%;
@@ -135,10 +147,11 @@ body {
 #contact {
     position: absolute;
     left: 0%;
+    margin-top: 2573px;
     width: 100%;
     height: 700px;
-    margin-top: 2573px;
     background-color: teal;
+    z-index: 1;
 }
 
 
@@ -150,7 +163,7 @@ body {
 }
 
 
-#contact-underline {
+#contact-headtext-underline {
     position: relative;
     top: -2%;
     left: 10%;
@@ -159,29 +172,20 @@ body {
 }
 
 
-#contactgegevens-head {
-    font-size: 45px;
-}
-
-
-#contactgegevens-list {
-    font-size: 20px;
-}
-
-
-#contactgegevens {
+/*Contactgegevens*/
+#contact-contactgegevens {
     position: relative;
     left: 70%;
 }
 
 
-/*Arrow Top Screen*/
-#arrow-up {
-    position: fixed;
-    bottom: 65px;
-    right: 30px;
-    width: 45px;
-    z-index: 1;
+#contact-contactgegevens-headtext {
+    font-size: 45px;
+}
+
+
+#contact-contactgegevens-list {
+    font-size: 20px;
 }
 
 
@@ -189,15 +193,16 @@ body {
 #footer {
     position: absolute;
     left: 0%;
+    margin-top: 3273px;
     width: 100%;
     height: 55px;
-    margin-top: 3273px;
-    background-color: rgb(85, 83, 83);
+    background-color: rgb(94, 94, 94);
+    z-index: 2;
 }
 
 
 /*Copyright*/
-#copyright {
+#footer-copyright {
     position: relative;
     top: 2px;
     left: 1%;
@@ -205,14 +210,14 @@ body {
 
 
 /*Socialmedia*/
-#socialmedia {
+#footer-socialmedia {
     position: relative;
-    left: 90.5%;
     top: -39px;
+    left: 90.5%;
 }
 
 
-.socialmedia-logo {
+.footer-logo-socialmedia {
     width: 32px;
     padding-left: 5px;
 }
